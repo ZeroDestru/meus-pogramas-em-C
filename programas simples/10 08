@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+
+
+
+int main(void){
+
+int num=1, num2=0;
+
+    while(num2 < 20){
+	
+    
+        printf("\n hello World %d", num);
+
+        num += 1;
+        num2 += 1;
+
+        if (num == 10)
+            printf("\n ja esta irritando");
+	}
+    
+return 0;
+}
